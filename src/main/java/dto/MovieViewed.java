@@ -1,15 +1,28 @@
 package dto;
 
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+
+@Entity
+@Table
 public class MovieViewed {
 	
-	private String id = "";
+	@Id
+	@GeneratedValue
+	private int id;
+	
 	private String name = "";
 	private int genre;
 	private int category;
 	private String comment = "";
 	
-	public MovieViewed(String id, String name, int genre, int category, String comment) {
-		super();
+	public MovieViewed(){}
+	
+	public MovieViewed(int id, String name, int genre, int category, String comment) {
 		this.id = id;
 		this.name = name;
 		this.genre = genre;
@@ -17,10 +30,9 @@ public class MovieViewed {
 		this.comment = comment;
 	}
 
-	public String getId() {
+	public int getId() {
 		return id;
 	}
-
 
 	public String getName() {
 		return name;
