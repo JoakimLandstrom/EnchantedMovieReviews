@@ -1,0 +1,22 @@
+<div id="home" class="container-fluid">
+    <h1 class="golden-text">Viewed Movies</h1>
+    <div class="movies-container">
+
+        <div ng-repeat="movie in viewedMovies" class="movie-holder row">
+            <div class="thumbnail col-md-2">
+            </div>
+            <h4 class="golden-text col-md-7">
+                {{movie.name}}
+            </h4>
+            <span class="col-md-3">{{movie.rating}}
+                <div class="rating">
+                    <span>☆</span>
+                    <span>☆</span>
+                    <span>☆</span>
+                    <span>☆</span>
+                    <span>☆</span>
+                </div>
+            </span>
+        </div>
+    </div>
+</div>
