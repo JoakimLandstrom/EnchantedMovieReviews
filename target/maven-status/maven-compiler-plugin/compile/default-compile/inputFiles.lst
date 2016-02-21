@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 /Users/isabellarodriguez/Documents/egnaProject/EnchantedMovieReviews/src/main/java/application/ApplicationController.java
 /Users/isabellarodriguez/Documents/egnaProject/EnchantedMovieReviews/src/main/java/application/HibernateUtil.java
 /Users/isabellarodriguez/Documents/egnaProject/EnchantedMovieReviews/src/main/java/application/Application.java
 /Users/isabellarodriguez/Documents/egnaProject/EnchantedMovieReviews/src/main/java/dto/MovieViewed.java
+=======
+C:\Users\joaki\Desktop\Egna projekt\EnchantedMovieReviews\src\main\java\se\enchanted\rest\ViewedMovie.java
+C:\Users\joaki\Desktop\Egna projekt\EnchantedMovieReviews\src\main\java\se\enchanted\Application.java
+C:\Users\joaki\Desktop\Egna projekt\EnchantedMovieReviews\src\main\java\se\enchanted\util\HibernateUtil.java
+C:\Users\joaki\Desktop\Egna projekt\EnchantedMovieReviews\src\main\java\se\enchanted\entity\ViewedMovieEntity.java
+>>>>>>> b8385b64010a85cda817e42908265107966f7500

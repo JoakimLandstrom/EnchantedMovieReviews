@@ -1,28 +1,26 @@
-package dto;
-
+package se.enchanted.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-
 @Entity
 @Table
-public class MovieViewed {
-	
+public class ViewedMovieEntity {
 	@Id
 	@GeneratedValue
 	private int id;
-	
+
 	private String name = "";
 	private int genre;
 	private int category;
 	private String comment = "";
-	
-	public MovieViewed(){}
-	
-	public MovieViewed(int id, String name, int genre, int category, String comment) {
+
+	public ViewedMovieEntity() {
+	}
+
+	public ViewedMovieEntity(int id, String name, int genre, int category, String comment) {
 		this.id = id;
 		this.name = name;
 		this.genre = genre;
@@ -65,5 +63,5 @@ public class MovieViewed {
 	public void setComment(String comment) {
 		this.comment = comment;
 	}
-	
+
 }
