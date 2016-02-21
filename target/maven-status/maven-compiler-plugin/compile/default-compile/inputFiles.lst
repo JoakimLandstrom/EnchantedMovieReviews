@@ -1,4 +1,4 @@
-C:\Users\joaki\Desktop\Egna projekt\EnchantedMovieReviews\src\main\java\application\ApplicationController.java
-C:\Users\joaki\Desktop\Egna projekt\EnchantedMovieReviews\src\main\java\dto\MovieViewed.java
-C:\Users\joaki\Desktop\Egna projekt\EnchantedMovieReviews\src\main\java\application\HibernateUtil.java
-C:\Users\joaki\Desktop\Egna projekt\EnchantedMovieReviews\src\main\java\application\Application.java
+C:\Users\joaki\Desktop\Egna projekt\EnchantedMovieReviews\src\main\java\se\enchanted\rest\ViewedMovie.java
+C:\Users\joaki\Desktop\Egna projekt\EnchantedMovieReviews\src\main\java\se\enchanted\Application.java
+C:\Users\joaki\Desktop\Egna projekt\EnchantedMovieReviews\src\main\java\se\enchanted\util\HibernateUtil.java
+C:\Users\joaki\Desktop\Egna projekt\EnchantedMovieReviews\src\main\java\se\enchanted\entity\ViewedMovieEntity.java
